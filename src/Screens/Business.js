@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
     padding: 20,
-    backgroundColor:'#1272'
+    backgroundColor:'#1111'
   },
   businessCard: {
     backgroundColor: '#fff',

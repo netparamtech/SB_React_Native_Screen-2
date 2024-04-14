@@ -19,7 +19,7 @@ const BusinessInfo = () => {
   const [googleMap, setGoogleMap] = useState('');
 
   const handleSubmit = () => {
-    // Handle form submission here
+    
     console.log('Form submitted');
   };
 
@@ -43,7 +43,7 @@ const BusinessInfo = () => {
         <TextInput placeholder='Enter Business Name' style={{ paddingHorizontal: 10, fontSize:20 }}></TextInput>
     </View>
 
-    {/* Business Type *  */}
+    {/* Business Type * */}
 
     <View>
         <Text style={{fontSize:21, fontWeight:'900', paddingBottom:10}}>Business Type *</Text>
@@ -254,7 +254,6 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     marginHorizontal:2,
     marginTop:20,
-    
     backgroundColor: 'white',
     elevation: 5,
     borderRadius: 10,
