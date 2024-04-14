@@ -9,6 +9,7 @@ const ChoosePhoto = () => {
     launchImageLibrary({ mediaType: 'photo' }, response => {
       if (!response.didCancel) {
         setSelectedImage(response.assets[0].fileName);
+        
       }
     });
   };
