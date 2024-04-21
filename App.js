@@ -5,6 +5,7 @@ import Login from './src/Screens/Login';
 import SignUp from './src/Screens/Signup';
 import Drawernavigator from './src/navigators/Drawernavigator';
 import BusinessForm from './src/Screens/BusinessInfo';
+import CreateEvents from './src/Screens/CreateEvents';
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
       <Stack.Screen name='Signup' component={SignUp}/>
       <Stack.Screen name='Drawernavigator' component={Drawernavigator} options={{ headerShown: false }}/>
       <Stack.Screen name='BusinessForm' component={BusinessForm} options={{ headerShown: false }}/>
+      <Stack.Screen name='Create Events' component={CreateEvents} options={{ headerShown: false }}/>
       
       </Stack.Navigator>
       

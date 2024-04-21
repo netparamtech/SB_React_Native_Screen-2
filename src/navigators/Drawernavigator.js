@@ -8,6 +8,7 @@ import Customdrawer from "./Customdrawer";
 import User from "../Screens/User";
 import Business from "../Screens/Business";
 import BusinessForm from "../Screens/BusinessInfo";
+import DashBoard from "../Screens/DashBoard";
 
 
 
@@ -21,7 +22,7 @@ export default function Drawernavigator() {
         
         <Drawer.Screen name="Home" component={Home} 
          options={{ drawerIcon: () => <Icon name="home" size={30} color="#900" /> }}/>
-        <Drawer.Screen name="Userprofile" component={Userprofile}
+        <Drawer.Screen name="Dashboard" component={DashBoard}
         options={{ drawerIcon: () => <Icon name="user" size={30} color="#900" /> }}/>
         <Drawer.Screen name="Setting" component={Profile}
         options={{ drawerIcon: () => <Icon name="gear" size={30} color="#900" /> }}/>
